@@ -1,0 +1,153 @@
+/*=================================
+Author: Md Saifur Rahman
+Updated: 19 September, 2020
+Notes: Hand Coded by Fiverr.com/saifurpro
+===================================*/
+
+/*------Start Base CSS------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+.fix:before,
+.fix:after {
+    content: '';
+    display: table;
+}
+
+.fix:after {
+    clear: both;
+}
+
+/*------End Base CSS------*/
+
+/* Appointment CSS Start */
+.appointment-wrap {
+    background: #25316f;
+    max-width: 320px;
+    margin: 15px auto;
+    padding: 30px 20px 15px;
+    color: #fbfcfc;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.appointment-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.appointment-title span {
+    color: #f2c12b;
+}
+
+.appointment-content {
+    font-size: 22px;
+}
+
+.calendar-img {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.calendar-img img {
+    max-width: 90%;
+}
+
+.appointment-content span {
+    display: block;
+    color: #f2c12b;
+    font-weight: 600;
+}
+
+.appointment-link .boxed-btn {
+    color: #fff;
+    background: #b0b1b1;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.appointment-link .boxed-btn:hover {
+    background-color: #f2c12b;
+}
+
+.appointment-link {
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 200px;
+}
+
+.footer-logo {
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* Appointment CSS End */
