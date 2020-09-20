@@ -154,12 +154,14 @@ p {
 
 .calendar-img .month {
     position: absolute;
-    left: 26%;
+    left: 0;
     top: 50px;
     font-size: 32px;
     text-transform: capitalize;
     font-weight: 700;
     display: block;
+    width: 100%;
+    text-align: center;
 }
 
 .calendar-img .date {
